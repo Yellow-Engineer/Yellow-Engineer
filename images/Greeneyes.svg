@@ -1,0 +1,265 @@
+<svg width="640" height="320" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 16">
+  <defs>
+	<g id="background">
+		<rect x="0" y="0" width="32" height="16" fill="black" />
+	</g>
+	<g id="normalBrows">
+	    <!-- Background -->
+		<rect x="0" y="0" width="32" height="5" fill="black" />
+		<rect x="15" y="0" width="2" height="16" fill="black" />
+  
+		<!-- Left side brow -->
+		<rect x="0" y="3" width="1" height="2" fill="#826f1d" />
+		<rect x="1" y="2" width="3" height="2" fill="#826f1d" />
+		<rect x="4" y="1" width="4" height="2" fill="#826f1d" />
+		<rect x="7" y="0" width="4" height="2" fill="#826f1d" />
+		<rect x="10" y="1" width="4" height="2" fill="#826f1d" />
+		<rect x="11" y="2" width="4" height="2" fill="#826f1d" />
+		  
+		<!-- Right side brow -->
+		<rect x="31" y="3" width="1" height="2" fill="#826f1d" />
+		<rect x="28" y="2" width="3" height="2" fill="#826f1d" />
+		<rect x="24" y="1" width="4" height="2" fill="#826f1d" />
+		<rect x="21" y="0" width="4" height="2" fill="#826f1d" />
+		<rect x="18" y="1" width="4" height="2" fill="#826f1d" />
+		<rect x="17" y="2" width="4" height="2" fill="#826f1d" />
+	</g>
+	<g id="normalREyes">
+		<!-- Iris -->
+		<rect x="4" y="0" width="2" height="10" fill="#547310" />
+		<rect x="2" y="1" width="6" height="8" fill="#547310" />
+		<rect x="1" y="2" width="8" height="6" fill="#547310" />
+		<rect x="0" y="4" width="10" height="2" fill="#547310" />
+		  
+		<!-- Pupil -->
+		<rect x="3" y="3" width="4" height="4" fill="black" />
+		
+		<!-- Reflect -->
+		<rect x="6" y="2" width="1" height="2" fill="white" />
+		<rect x="6" y="3" width="2" height="1" fill="white" />
+	</g>
+	<g id="normalLEyes">
+		<!-- Iris -->
+		<rect x="4" y="0" width="2" height="10" fill="#547310" />
+		<rect x="2" y="1" width="6" height="8" fill="#547310" />
+		<rect x="1" y="2" width="8" height="6" fill="#547310" />
+		<rect x="0" y="4" width="10" height="2" fill="#547310" />
+		  
+		<!-- Pupil -->
+		<rect x="3" y="3" width="4" height="4" fill="black" />
+		
+		<!-- Reflect -->
+		<rect x="6" y="3" width="1" height="1" fill="white" />
+	</g>
+  </defs>
+  
+  <style>
+    .frame {
+      animation: pixelAnimation 6s steps(25) infinite;
+    }
+    @keyframes pixelAnimation {
+		0%, 28% { display: block; }
+		28%, 100% { display: none; }
+	}
+  </style>
+
+  <!-- Frame 1 -->
+  <g class="frame" style="animation-delay: 0s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(3,5)" />
+	<use href="#normalLEyes" transform="translate(19,5)" />
+	<use href="#normalBrows" />
+  </g>
+
+  <!-- Frame 2 -->
+  <g class="frame" style="animation-delay: 1.00s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(2,5)" />
+	<use href="#normalLEyes" transform="translate(18,5)" />
+	<use href="#normalBrows" />
+  </g>
+
+  <!-- Frame 3 -->
+  <g class="frame" style="animation-delay: 1.05s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(1,5)" />
+	<use href="#normalLEyes" transform="translate(17,5)" />
+	<use href="#normalBrows" />
+  </g>
+
+  <!-- Frame 4 -->
+  <g class="frame" style="animation-delay: 1.10s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(0,5)" />
+	<use href="#normalLEyes" transform="translate(16,5)" />
+	<use href="#normalBrows" />
+  </g>
+  
+  <!-- Frame 5 -->
+  <g class="frame" style="animation-delay: 1.15s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(-1,5)" />
+	<use href="#normalLEyes" transform="translate(15,5)" />
+	<use href="#normalBrows" />
+  </g>
+  <!-- Frame 6 -->
+  <g class="frame" style="animation-delay: 2s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(0,5)" />
+	<use href="#normalLEyes" transform="translate(16,5)" />
+	<use href="#normalBrows" />
+  </g>
+
+  <!-- Frame 7 -->
+  <g class="frame" style="animation-delay: 2.05s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(1,5)" />
+	<use href="#normalLEyes" transform="translate(17,5)" />
+	<use href="#normalBrows" />
+  </g>
+
+  <!-- Frame 8 -->
+  <g class="frame" style="animation-delay: 2.10s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(2,5)" />
+	<use href="#normalLEyes" transform="translate(18,5)" />
+	<use href="#normalBrows" />
+  </g>
+
+  <!-- Frame 9 -->
+  <g class="frame" style="animation-delay: 2.15s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(3,5)" />
+	<use href="#normalLEyes" transform="translate(19,5)" />
+	<use href="#normalBrows" />
+  </g>
+  
+  <!-- Frame 10 -->
+  <g class="frame" style="animation-delay: 2.20s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(4,5)" />
+	<use href="#normalLEyes" transform="translate(20,5)" />
+	<use href="#normalBrows" />
+  </g>
+  
+  <!-- Frame 11 -->
+  <g class="frame" style="animation-delay: 2.25s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(5,5)" />
+	<use href="#normalLEyes" transform="translate(21,5)" />
+	<use href="#normalBrows" />
+  </g>
+  
+  <!-- Frame 12 -->
+  <g class="frame" style="animation-delay: 2.30s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(6,5)" />
+	<use href="#normalLEyes" transform="translate(22,5)" />
+	<use href="#normalBrows" />
+  </g>
+  
+  <!-- Frame 13 -->
+  <g class="frame" style="animation-delay: 2.35s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(7,5)" />
+	<use href="#normalLEyes" transform="translate(23,5)" />
+	<use href="#normalBrows" />
+  </g>
+  
+  <!-- Frame 14 -->
+  <g class="frame" style="animation-delay: 3s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(7,6)" />
+	<use href="#normalLEyes" transform="translate(23,6)" />
+	<use href="#normalBrows" />
+  </g>
+
+  <!-- Frame 15 -->
+  <g class="frame" style="animation-delay: 3.05s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(7,7)" />
+	<use href="#normalLEyes" transform="translate(23,7)" />
+	<use href="#normalBrows" />
+  </g>
+
+  <!-- Frame 16 -->
+  <g class="frame" style="animation-delay: 3.10s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(6,7)" />
+	<use href="#normalLEyes" transform="translate(22,7)" />
+	<use href="#normalBrows" />
+  </g>
+
+  <!-- Frame 17 -->
+  <g class="frame" style="animation-delay: 3.15s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(6,8)" />
+	<use href="#normalLEyes" transform="translate(22,8)" />
+	<use href="#normalBrows" />
+  </g>
+  
+  <!-- Frame 18 -->
+  <g class="frame" style="animation-delay: 3.20s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(5,8)" />
+	<use href="#normalLEyes" transform="translate(21,8)" />
+	<use href="#normalBrows" />
+  </g>
+  
+  <!-- Frame 19 -->
+  <g class="frame" style="animation-delay: 3.25s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(5,9)" />
+	<use href="#normalLEyes" transform="translate(21,9)" />
+	<use href="#normalBrows" />
+  </g>
+  
+  <!-- Frame 20 -->
+  <g class="frame" style="animation-delay: 3.30s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(4,9)" />
+	<use href="#normalLEyes" transform="translate(20,9)" />
+	<use href="#normalBrows" />
+  </g>
+  
+  <!-- Frame 21 -->
+  <g class="frame" style="animation-delay: 3.35s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(3,9)" />
+	<use href="#normalLEyes" transform="translate(19,9)" />
+	<use href="#normalBrows" />
+  </g>
+  
+  <!-- Frame 22 -->
+  <g class="frame" style="animation-delay: 5.0s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(3,8)" />
+	<use href="#normalLEyes" transform="translate(19,8)" />
+	<use href="#normalBrows" />
+  </g>
+  
+  <!-- Frame 23 -->
+  <g class="frame" style="animation-delay: 5.1s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(3,7)" />
+	<use href="#normalLEyes" transform="translate(19,7)" />
+	<use href="#normalBrows" />
+  </g>
+  
+  <!-- Frame 24 -->
+  <g class="frame" style="animation-delay: 5.2s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(3,6)" />
+	<use href="#normalLEyes" transform="translate(19,6)" />
+	<use href="#normalBrows" />
+  </g>
+  
+  <!-- Frame 25 -->
+  <g class="frame" style="animation-delay: 5.3s;">
+    <use href="#background" />
+	<use href="#normalREyes" transform="translate(3,5)" />
+	<use href="#normalLEyes" transform="translate(19,5)" />
+	<use href="#normalBrows" />
+  </g>
+  
+</svg>
